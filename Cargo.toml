@@ -1,0 +1,13 @@
+[package]
+name = "toml-fmt"
+readme = "README.md"
+repository = "https://github.com/segeljakt/toml-fmt"
+homepage = "https://github.com/segeljakt/toml-fmt"
+description = "Format .toml files"
+version = "0.1.0"
+authors = ["Klas Segeljakt <klasseg@kth.se>"]
+edition = "2018"
+license = "MIT"
+
+[dependencies]
+toml = { version = "0.5.1", features = ["preserve_order"] }
